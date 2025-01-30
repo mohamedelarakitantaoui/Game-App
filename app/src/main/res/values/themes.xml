@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.GameProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorBackground">@color/white</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorSecondary">@color/blue</item>
+    </style>
+
+    <style name="Theme.GameProject" parent="Base.Theme.GameProject" />
+
+    <!-- New Sign Up Theme -->
+    <style name="signupTheme" parent="Base.Theme.GameProject">
+        <!-- Customize the Sign Up theme -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
